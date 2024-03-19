@@ -6,9 +6,9 @@ services:
     ports:
       - '5432:5432'
     environment:
-      - POSTGRESQL_USER=docker
-      - POSTGRESQL_PASSWORD=docker
-      - POSTGRESQL_DB=pizzashop
+      - POSTGRES_USER=docker
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=pizzashop
     volumes:
       - postgres_data:/bitnami/postgresql
 

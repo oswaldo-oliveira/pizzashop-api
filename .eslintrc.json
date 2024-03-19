@@ -1,0 +1,8 @@
+{
+  "extends": ["@rocketseat/eslint-config/node", "plugin:drizzle/all"],
+  "rules": {
+    "no-useless-constructor": "off",
+    "no-new": "off"
+  },
+  "plugins": ["drizzle"]
+}
