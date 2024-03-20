@@ -8,6 +8,13 @@
       "when": 1710857169354,
       "tag": "0000_spooky_mesmero",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1710937079902,
+      "tag": "0001_freezing_rockslide",
+      "breakpoints": true
     }
   ]
 }
