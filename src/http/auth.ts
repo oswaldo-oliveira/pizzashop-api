@@ -7,7 +7,7 @@ import { UnauthorizedError } from './errors/unauthorized-error'
 
 const jwtPayload = t.Object({
   sub: t.String(),
-  restauranteId: t.Optional(t.String()),
+  restaurantId: t.Optional(t.String()),
 })
 
 export const auth = new Elysia()
@@ -54,7 +54,7 @@ export const auth = new Elysia()
 
         return {
           userId: payload.sub,
-          restauranteId: payload.restauranteId,
+          restaurantId: payload.restaurantId,
         }
       },
     }
